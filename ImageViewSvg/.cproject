@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.android.toolchain.gcc.1004111254">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.1004111254" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="ImageViewSvg" buildProperties="" description="" id="com.android.toolchain.gcc.1004111254" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.android.toolchain.gcc.1004111254.190582822" name="/" resourcePath="">
+						<toolChain id="com.android.toolchain.gcc.273585001" name="com.android.toolchain.gcc" superClass="com.android.toolchain.gcc">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.1690980261" name="Android Platform" osList="all" superClass="com.android.targetPlatform"/>
+							<builder arguments="" command="ndk-build" id="com.android.builder.268630570" keepEnvironmentInBuildfile="false" superClass="com.android.builder"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.712034801" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="com.android.tool.compiler.g++.265574895" name="Android G++" superClass="com.android.tool.compiler.g++">
+								<option id="gnu.cpp.compiler.option.include.paths.1078809479" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libsvg-android}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/igor/local/AndroidNDK/platforms/android-8/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libagg/agg/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libagg/agg/gpc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libagg/aggsvg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libexpat}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libexpat/expat}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libjpeg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libpng}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libsvg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/zlib}&quot;"/>
+								</option>
+								<inputType id="com.android.tool.compiler.g++.input.2090723942" superClass="com.android.tool.compiler.g++.input"/>
+							</tool>
+							<tool id="com.android.tool.compiler.c.1962769143" name="Android GCC" superClass="com.android.tool.compiler.c">
+								<option id="gnu.c.compiler.option.include.paths.968838515" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libsvg-android}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/igor/local/AndroidNDK/platforms/android-8/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libagg/agg/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libagg/aggsvg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libexpat/expat}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libexpat}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libjpeg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libpng}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/libsvg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni/zlib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ImageViewSvg/jni}&quot;"/>
+								</option>
+								<inputType id="com.android.tool.compiler.c.input.1099339142" superClass="com.android.tool.compiler.c.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.265319160" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.2135518514" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1965259191" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.642699685" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.44491418" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="jni"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="ImageViewSvg.null.182137632" name="ImageViewSvg"/>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/ImageViewSvg"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1004111254;com.android.toolchain.gcc.1004111254.190582822;com.android.tool.compiler.c.1962769143;com.android.tool.compiler.c.input.1099339142">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1004111254;com.android.toolchain.gcc.1004111254.190582822;com.android.tool.compiler.g++.265574895;com.android.tool.compiler.g++.input.2090723942">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
